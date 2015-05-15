@@ -1,5 +1,5 @@
 .container {
-	min-width: 800px;
+	min-width: 1050px;
 	width: 80%;
 	margin: auto;
 	border-left: 1px solid #e2e2e2;
@@ -8,6 +8,7 @@
 }
 
 .header {
+	min-width: 1050px;
 	position: fixed;
 	border-bottom: 1px solid #ccc;
 	height: 50px;
@@ -85,30 +86,50 @@
 
 .content {
 	padding-top: 50px;
-	background-color: rgba(255,0,0,0.04);
-	width: 65%;
-	min-width: 800px;
+	width: 1050px;
 	height: 1800px;
 	margin: auto;
 }
 
 .footer {
-	width: 65%;
-	min-width: 800px;
+	width: 1050px;
 	margin: auto;
-	height: 40px;
-	background-color: red;
 	margin-bottom: 20px;
+	padding: 10px 0;
+	height: 20px;
+	/* Copy Paste */
+	border-top: 1px solid #e2e2e2;
 }
 
+.footer-content {
+	margin: 0;
+	padding: 0;
+}
 
+.footer-content li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	/* Copy Paste */
+	padding: 0 5px;
+	font-size: 0.6875rem;
+  font-weight: 400;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  border-left: 1px solid #999;
+  float: left;
+  line-height: 10px;
+  height: 10px;
+  border-color: #e2e2e2;
+}
 
+#footer-left {
+	float: left;
+}
 
+#footer-right {
+	float: right;
+}
 
-
-
-
-
-
-
-
+#no-border {
+  border: 0;
+}
